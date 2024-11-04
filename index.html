@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/145e7e3b19.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects </a></li>
+                    <li><a href="#internship">Internships</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-square-caret-down" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="text">
+                <p>Full Stack Web Developer</p>
+                <h1>Hi , I Am <span>Pratyush</span> Pallav </h1>
+                <br>
+                <h2>"Confusion is a part of Coding ! "</h2>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!------------ABOUT MEE------------->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="beside">
+                <div class="column-1">
+                    <img src="./public/WhatsApp Image 2024-07-08 at 19.50.55_bbeef197.jpg" alt="">  <!--image-->
+                </div>
+                
+                <div class="column-2">
+                    <h1 class="subtit">About Me</h1>
+                    <p>An enthusiastic student who is passionate to learn anything new he encounters. Worked in 
+                        various clubs of my college acquiring real experience of working as a team and also 
+                        enhancing my communication skills. Looking forward to seek a advance role to enhance 
+                        and explore my development and technical knowledge . Strong community and social services 
+                        professional with a Bachelor of Technology - B.Tech focused in Electronics And
+                        Communication Engineering from Vellore Institute of Technology , Vellore . </p>
+
+                    <div class="tab-tit">
+                        <p class="links active" onclick="opentab('skills')" >Skills</p>
+                        <p class="links" onclick="opentab('experience')" >Experience</p>
+                        <p class="links" onclick="opentab('education')" >Education</p>
+                    
+                    
+                    </div>
+                    
+                    <div class="content active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Structures and Algorithms</span><br>Hands on experience on Problem solving skills  </li>
+                            <li><span>Full Stack Web Development</span><br>Design interactive Web applications and skillfull in Frontend as well as in Backend Projects  </li> 
+                            <li><span>Database Management System </span><br>Design interactive Web applications </li> 
+                            <li><span>Object Oriented Programming </span><br>Design interactive Web applications </li> 
+
+                        </ul>
+
+                    </div>
+
+                    <div class="content" id="experience">
+                        <ul>
+                            <li><span> IT Intern in eDF International Networks </span><br> " Smart Meter " <br>  Project based on the functionality of Smart Meter , Networking  of  AMI and Data-Centres   </li>
+                            
+                        </ul>
+
+                    </div>
+
+                    <div class="content" id="education">
+                        <ul>
+                            <li><span>Matriculation</span><br> Sunbeam Bhagwanpur , Varanasi , U.P. <br> 96.8 % </li>
+                            <li><span>AISSCE</span><br> Little Flower House , Varanasi , U.P <br> 91.2 % </li>
+                            <li><span>B.Tech</span><br> Vellore Institute of Technology , Vellore , Tamil Nadu <br> CGPA: 9.13  </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-------------- Projects ---------->
+    
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtit">Personal Projects</h1>
+            <div class="services-list">
+                <div >
+                    <i class="fa-solid fa-code fa-beat-fade"></i>
+                    <h2>" Raahi "- A Travel tracker</h2>
+                    <p>Engineered the ’ Travel Tracker ’ application, optimizing data storage and retrieval processes, which resulted in a
+                        20% reduction in server response time . Implemented validation and error handling mechanisms using
+                        Express.js middleware, improving application robustness and user experience.
+                          </p>
+                          <p>Technologies Used : Express JS, EJS, PostgreSQL</p>
+                    <a href="https://github.com/Pratyush-Pallav-06/-RAAHI-__-A-Travel-Tracker"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-window-restore fa-beat-fade"></i>
+                    <h2> "Stop the Spread":  Covid- Analyser </h2>
+                    <p>Developed a comprehensive , responsive and interactive user interfaces leveraging Material-UI components,
+                        optimizing React Libraries COVID Tracker web application to deliver real-time updates and statistics on
+                        COVID-19 cases in the USA, utilized an average daily user data of more than 500 unique patients. </p>
+                        <p>Technologies Used : REACT , React- Libraries, JavaScript , Material-UI</p>
+                    <a href="https://github.com/Pratyush-Pallav-06/Stop_The_Spread_Covid-19"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database fa-beat-fade"></i>
+                    <h2>Sign-Up Page</h2>
+                    <p>Created a fully functional website using the Mailchimp API, integrating user details storage on the Mailchimp
+                        server; enhanced the sign-up page with Bootswatch CSS, resulting in a 13% increase in user registrations.</p>
+                        <p>Technologies Used : Node JS, REST API, Bootstrap
+                        </p>
+                    <a href="https://github.com/Pratyush-Pallav-06/Sign_Up_Page"><i class="fa-solid fa-arrow-up-right-from-square" ></i></a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-database fa-beat-fade"></i>
+                    <h2>Weather Monitoring using Machine Learning</h2>
+                    <p> Developed a machine learning model to predict weather conditions based on historical and real-time data (e.g.,
+                        temperature, humidity, wind speed, etc) . The project involved collecting data from IoT sensors and weather
+                        APIs, preprocessing data, and train models for forecasting .</p>
+                        <p>Technologies Used : Python, Pandas, NumPy , Matplotlib, Plotly , Scikit-learn , Classification</p>
+                    
+                </div>
+               
+            </div>
+            <a href="#" class="btn"> See More </a>
+            
+        </div>
+    </div>
+
+
+    <!-------------INTERNSHIP------------->
+
+
+    <div id="internship">
+        <div class="container">
+            <h1 class="subtit">Internships</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./public/edf.jpeg" >   <!--space-->
+                    
+                    <div class="layer">
+                        <h3>I.T. Intern At EDF International Networks</h3>  <!--change it-->
+                        <p>Designed and executed a comprehensive strategy to optimize Data Center operations, achieving high availability
+                            of Advance Metering Interface (AMI) data collection systems; streamlined processes resulted in reduction in
+                            data retrieval time .</p>
+                            <p>Delivered technical support to over 15 team members on networking principles and Smart Meter operations.</p>   <!--change it-->
+                        <a href="https://drive.google.com/file/d/1HUpwMMytHDBGUjtJ2A5lU0-ut5EA13Nt/view?usp=sharing"><i class="fa-sharp fa-solid fa-link"></i></a>  <!--change it-->
+
+                    </div>
+
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!---------------contact me ------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contacts </h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> pratyushpallav003@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone-volume"></i> 9142152730</p> <!--chnage-->
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/_piirtoshh_06/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/pratyush-pallav/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Pratyush-Pallav-06"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1fLbsG6wrI8MA2duBHpprwGVnh3DpZDhr/view?usp=sharing" download class="btn btn2">Download CV</a>    <!--to download a CV-->
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Email Id" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>     
+                        <button type="submit" class="btn btn2"> Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> . Made by Pratyush Pallav !!  </p>
+        </div>
+    </div>
+
+
+
+    <!------------- JS ------------>
+
+
+    
+    <!-- <script>
+
+
+         var tablinks = document.getElementsByClassName("links");
+        var tabcontent = document.getElementsByClassName("content");
+
+      function opentab(tabname)
+    {
+     for(tblnk of tablinks)
+     {
+        tblnk.classList.remove("active") ;
+     }
+
+     for(tabconts of tabcontent)
+     {
+        tabconts.classList.remove("active-tab") ;
+     }
+     event.currentTarget.classList.add("active") ;
+     document.getElementById(tabname).classList.add("active-tab") ;
+    
+    } 
+
+    
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0" ;
+
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px" ;
+            
+        }
+    </script> -->
+    
+
+    <!-- <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxguW6Ut2czIa_VW7E1d6UhwMreAg0xD-SLT_y3LeigXxhDlXfMyuZ9R_CPjVNbCozAYA/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => 
+            {
+                msg.innerHTML="Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script> -->
+
+      <script src="./index.js"></script>
+
+</body>
+</html>
+
